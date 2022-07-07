@@ -37,7 +37,7 @@
 
         "rtr-JobCommandEcho": {
             "Type": "Job:Command",
-            "Command": "echo Execucao Demo TechWeek API CLI as 09:49"
+            "Command": "echo Execucao Demo TechWeek API CLI as 09:50"
         },
 
         "rtr-ScriptJob-Fail": {
