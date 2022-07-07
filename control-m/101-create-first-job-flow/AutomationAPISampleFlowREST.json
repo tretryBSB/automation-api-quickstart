@@ -26,7 +26,7 @@
         }
     },
 
-    "rtr-apiclidemo": {
+    "rtr-AutomationAPISampleFlow-REST": {
         "Type": "Folder",
         "BusinessFields": [
             {
@@ -35,12 +35,12 @@
         "SiteStandard": "SE Demo System Standard",
         "Comment" : "Test for Demo",
 
-        "rtr-JobCommandEcho": {
+        "rtr-JobCommandEcho-REST": {
             "Type": "Job:Command",
-            "Command": "echo Execucao Demo TechWeek API CLI as 09:49"
+            "Command": "echo Execucao chamada pela API as 10:21 teste com nova alteracao de jobs"
         },
 
-        "rtr-ScriptJob-Fail": {
+        "rtr-ScriptJob-Fail-REST": {
             "Type": "Job:Script",
           	"FilePath":"SCRIPT_PATH",
           	"FileName":"SCRIPT_NAME"
@@ -48,10 +48,11 @@
 
         "Flow": {
             "Type": "Flow",
-            "Sequence": ["rtr-JobCommandEcho", "rtr-ScriptJob-Fail"]
+            "Sequence": ["rtr-JobCommandEcho-REST", "rtr-ScriptJob-Fail-REST"]
         }
     }
 }
 
+  
   
   

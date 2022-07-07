@@ -1,0 +1,18 @@
+{
+    "DeployDescriptor":
+    [
+      {
+        "Property" :"Server",
+        "Assign" : "Production"
+      },
+      {
+          "Property" :"ControlmServer",
+          "Replace" : [ {"Sandbox" : "Production"} ]
+      },
+      {
+        "Property" :"Host",
+        "Replace" : [ {"ctm-aws-sandbox.bmcdemo.com" : "ctm-aws-production.bmcdemo.com"} ]
+    }
+  
+    ]
+  }
